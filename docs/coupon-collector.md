@@ -100,6 +100,8 @@ $ export HOTPEPPER_API_KEY="取得したAPIキー"
 $ export RAKUTEN_APP_ID="取得したアプリID"
 ```
 
+> 各サービスでの登録から GitHub Secrets への設定までの詳しい手順は **[docs/api-keys-setup.md](api-keys-setup.md)** を参照してください。
+
 環境変数が未設定でもエラーにはならず、該当ソースがスキップされるだけです(ログに「APIキー等が未設定のためスキップします」と出ます)。
 
 ### 3. 動作確認
